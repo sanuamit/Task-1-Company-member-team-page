@@ -1,0 +1,118 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.company-section {
+    color: black;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.section-heading {
+    background: linear-gradient(45deg, #79f0dc, #05537c);
+    color: white;
+    border: none;
+    padding: 10px 23px;
+    font-size: 22px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: "Cambria", "Cochin", "Georgia", "Times", "Times New Roman", serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.section-heading:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.welcome-description {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.welcome-description:hover {
+    color: #330be2;
+    transform: scale(1.15);
+}
+
+.dotted-line {
+    width: 80%;
+    height: 4px;
+    border-top: 2px dotted;
+    border-color: #2ef1d1 #0a75ad;
+    margin: 20px auto;
+}
+.dotted-line-1 {
+    width: 60%;
+    height: 4px;
+    border-top: 2px dotted;
+    border-color: #2ef1d1 #0a75ad;
+    margin: 20px auto;
+}
+.dotted-line-2 {
+    width: 50%;
+    height: 4px;
+    border-top: 2px dotted;
+    border-color: #2ef1d1 #0a75ad;
+    margin: 20px auto;
+}
+
+.meet-team-heading {
+    font-size: 27px;
+    margin: 20px 0;
+}
+
+.team-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-member {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.team-member:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #666;
+}
